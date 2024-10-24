@@ -1,4 +1,4 @@
-export default function ArticleView({ article: { topic, text } }) {
+export default function ArticleView({ article: { topic, text }, textColor }) {
   return (
     <article>
       <h1>{topic}</h1>
